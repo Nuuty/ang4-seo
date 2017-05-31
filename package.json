@@ -7,7 +7,7 @@
     "npm": "4.4.4"
   },
   "scripts": {
-    "postinstall": "ng build --prod && ngc",
+    "prestart": "ng build --prod && ngc",
     "start": "node dist/server.js"
   },
   "private": true,
