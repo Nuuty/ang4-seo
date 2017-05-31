@@ -8,7 +8,7 @@
   },
   "scripts": {
     "prestart": "ng build --prod && ngc",
-    "start": "node dist/server.js"
+    "start": "ts-node src/server.ts"
   },
   "private": true,
   "dependencies": {
