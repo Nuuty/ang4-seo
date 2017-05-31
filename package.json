@@ -7,7 +7,7 @@
     "npm": "4.4.4"
   },
   "scripts": {
-    "postinstall": "ng build --aot -prod",
+    "postinstall": "ng build --prod",
     "start": "ts-node src/server.ts"
   },
   "private": true,
