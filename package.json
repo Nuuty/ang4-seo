@@ -7,6 +7,7 @@
     "npm": "4.4.4"
   },
   "scripts": {
+    "prestart": "ng build --prod && ngc",
     "start": "node dist/out-tsc/src/server.js"
   },
   "private": true,
