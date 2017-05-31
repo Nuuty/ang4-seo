@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "postinstall": "ng build --prod && ngc",
+    "postinstall": "ng build --prod",
     "start": "ts-node src/server.ts"
   },
   "private": true,
