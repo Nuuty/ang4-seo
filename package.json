@@ -7,12 +7,11 @@
     "npm": "4.4.4"
   },
   "scripts": {
-    "prestart": "ng build --prod && ngc",
-    "start": "ts-node src/server.ts"
+    "postinstall": "ng build --prod && ngc",
+    "start": "node dist/server.js"
   },
   "private": true,
   "dependencies": {
-    "@angular/cli": "1.0.6",
     "@angular/animations": "^4.1.3",
     "@angular/common": "^4.0.0",
     "@angular/compiler": "^4.0.0",
@@ -28,6 +27,7 @@
     "zone.js": "^0.8.4"
   },
   "devDependencies": {
+    "@angular/cli": "1.0.6",
     "@angular/compiler-cli": "^4.0.0",
     "@types/jasmine": "2.5.38",
     "@types/node": "~6.0.60",
